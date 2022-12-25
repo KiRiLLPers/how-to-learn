@@ -162,6 +162,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto 100px;
+  padding: 0;
   z-index: 1;
 }
 
@@ -261,7 +262,7 @@
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
-  object-fit: cover;
+  background-size: contain;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -291,8 +292,8 @@
 }
 
 .footer__column_content_copyright {
-  width: 711px;
   display: flex;
+  flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
 }
